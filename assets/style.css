@@ -29,6 +29,9 @@ header h1 {
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+header a {
+    text-decoration: none;
+}
 
 header nav {
     margin: 7px 0;
@@ -60,6 +63,15 @@ header nav ul li a:hover {
     text-shadow: none;
 }
     /* Header Style End*/
+/* Footer Style Start*/
+footer {
+    padding: 25px;
+    background-color: #b3aa6b;
+    color: #4C5081;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
 
     /*Hero Style Start*/
 .hero {
@@ -88,11 +100,21 @@ header nav ul li a:hover {
 }
 /*Hero Style End*/
 
-/* About Me*/
+ /* About Me*/
+  .about-me>* {
+    flex: 1;
+    margin: 20px;
+}
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #f3d1c2;
+}
 .about-me h3 {
     font-size: 48px;
     color: #b3aa6b;
-    border-bottom: 3px solid #f3d1c2;
+    border-bottom: 3px solid #b3aa6b;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -106,6 +128,13 @@ header nav ul li a:hover {
     margin: 0 auto;
     text-align: center;
   }
+img {
+    padding: 20px;
+    width: 100%;
+    background-size:contain;
+    background-position: center;
+    display: flex;
+}
 /*About Me Style Ends */
 
 /*Work Style Cards*/
@@ -120,8 +149,28 @@ header nav ul li a:hover {
     display: flex;
     justify-content: center; 
 }
-.social {
-    
+.contact-info>* {
+    flex: 1;
+    margin: 15px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+.social-icons {
+    color: #4C5081;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.social-icons a {
+    color: #4C5081;
+}
+.social-icons a:hover {
+    color: #b3aa6b;
 }
 .contact-form input,
 .contact-form textarea {
