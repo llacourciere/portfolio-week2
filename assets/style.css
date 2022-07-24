@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/*Header Style Start*/
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #b3aa6b;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header a {
+    color: #b3aa6b;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+header nav ul li a:hover {
+    background: #b3aa6b;
+    color: #f3d1c2;
+    border-radius: 15px;
+    text-shadow: none;
+}
+    /* Header Style End*/
+
+    /*Hero Style Start*/
+.hero {
+    padding: 150px;
+    margin-bottom: 20px;
+    background-image: url(../assets/Images//IMG_5745.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.hero h2 {
+    color: #f3d1c2;
+    display: flex;
+    justify-content: right;
+    font-weight: bolder;
+    font-size: 48px;
+    padding: 80px;
+    margin: 30px;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+/*Hero Style End*/
+
+/* About Me*/
+.about-me h3 {
+    font-size: 48px;
+    color: #b3aa6b;
+    border-bottom: 3px solid #f3d1c2;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+  }
+.about-me p {
+    line-height: 1.7;
+    color: #4C5081;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+/*About Me Style Ends */
+
+/*Work Style Cards*/
+
+/*Connect with Me Style Start*/
+.contact {
+    background-color: #f3d1c2;
+    padding: 60px;
+}
+.contact h3 {
+    color: #b3aa6b;
+    display: flex;
+    justify-content: center; 
+}
+.social {
+    
+}
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #f3d1c2;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: rbga(255, 255, 255, 1);
+  outline: none;
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: #b3aa6b;
+  color: #f3d1c2;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.contact-form button:hover {
+  color: #b3aa6b;
+  background: #4C5081;
+}
