@@ -77,12 +77,15 @@
                 <div class="section-title">
                     <h3>Send Me A Message</h3>
                 </div>
-                <form action="https://formsubmit.co/lacourcierela@gmail.com" method="POST"></form>>
+                <form action="https://formsubmit.co/lacourcierela@gmail.com" method="POST">
                     <label for="contact-name">Your Name</label>
-                    <input type="text" id="contact-name" placeholder="Your Name" />
+                    <input type="text" name="name" id="contact-name" placeholder="Your Name" />
+
+                    <label for="contact-email">Your Email</label>
+                    <input type="text" name="email" id="contact-email" placeholder="Your Email" />
 
                     <label for="contact-message">Message</label>
-                    <textarea id="contact-message" placeholder="Message"></textarea>
+                    <textarea id="contact-message" name="message" placeholder="Message"></textarea>
 
                     <button type="submit">Submit</button>
                 </form>
