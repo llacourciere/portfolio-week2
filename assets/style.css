@@ -11,12 +11,12 @@ body {
 .section-title {
     font-size: 36px;
     font-weight: bold;
+    padding: 20px;
     border-bottom: 3px solid #4C5081;
     padding-bottom: 30px;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
-    display: ;
 }
 
 /*Header Style Start*/
@@ -230,7 +230,7 @@ footer {
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
-    display: ;
+    display: flex;
 }
 .contact-info {
     display: flex;
