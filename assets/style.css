@@ -162,6 +162,15 @@ footer {
     color: #f3d1c2;
     justify-content: center;
 }
+.my-work a {
+    text-decoration: none;
+}
+.my-work a:hover {
+    background: #b3aa6b;
+    color: #f3d1c2;
+    border-radius: 15px;
+    text-shadow: none;
+}
 .first-project {
     width: 100%;
     background-attachment: fixed;
